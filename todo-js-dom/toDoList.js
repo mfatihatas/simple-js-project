@@ -22,7 +22,6 @@ form.addEventListener('submit', (event) => {
     removeButton.style.height= "100%"
     removeButton.style.outline= "none"
     removeButton.style.cursor= "pointer"
-    
 
     newListItem.textContent = input.value;
     removeButton.textContent = 'X';
